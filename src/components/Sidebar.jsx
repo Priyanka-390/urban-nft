@@ -68,7 +68,7 @@ const Sidebar = () => {
                     </defs>
                   </svg>
                 </span>{" "}
-                <span className="text-[#7C7C7C]  md:pl-4 md:block hidden font-inter text-sm font-medium">
+                <span className="text-[#7C7C7C] group-hover:bg-clip-text group-hover:text-transparent group-hover:bg-text-gradient md:pl-4 md:block hidden font-inter text-sm font-medium">
                   Dashboard
                 </span>
               </a>
@@ -101,7 +101,7 @@ const Sidebar = () => {
                     />
                   </svg>
                 </span>{" "}
-                <span className="text-[#7C7C7C]  md:pl-4 md:block hidden font-inter text-sm font-medium">
+                <span className="text-[#7C7C7C]  group-hover:bg-clip-text group-hover:text-transparent group-hover:bg-text-gradient md:pl-4 md:block hidden font-inter text-sm font-medium">
                   Market
                 </span>
               </a>
@@ -130,7 +130,7 @@ const Sidebar = () => {
                     />
                   </svg>
                 </span>{" "}
-                <span className="text-[#7C7C7C] md:block hidden  md:pl-4 font-inter text-sm font-medium">
+                <span className="text-[#7C7C7C] md:block group-hover:bg-clip-text group-hover:text-transparent group-hover:bg-text-gradient hidden  md:pl-4 font-inter text-sm font-medium">
                   Favorites
                 </span>
               </a>
@@ -167,7 +167,7 @@ const Sidebar = () => {
                     />
                   </svg>
                 </span>{" "}
-                <span className="text-[#7C7C7C]  md:pl-4 font-inter md:block hidden text-sm font-medium">
+                <span className="text-[#7C7C7C]  md:pl-4 group-hover:bg-clip-text group-hover:text-transparent group-hover:bg-text-gradient font-inter md:block hidden text-sm font-medium">
                   Insight
                 </span>
               </a>
@@ -199,7 +199,7 @@ const Sidebar = () => {
                     <circle cx="12.5" cy="6.9248" r="0.75" fill="#A8A8A8" />
                   </svg>
                 </span>{" "}
-                <span className="text-[#7C7C7C]  md:pl-4 font-inter text-sm md:block hidden font-medium">
+                <span className="text-[#7C7C7C]  md:pl-4 group-hover:bg-clip-text group-hover:text-transparent group-hover:bg-text-gradient font-inter text-sm md:block hidden font-medium">
                   Wallet
                 </span>
               </a>
@@ -228,12 +228,12 @@ const Sidebar = () => {
                     />
                   </svg>
                 </span>{" "}
-                <span className="text-[#7C7C7C]  md:pl-4 font-inter text-sm md:block hidden font-medium">
+                <span className="text-[#7C7C7C] group-hover:bg-clip-text group-hover:text-transparent group-hover:bg-text-gradient md:pl-4 font-inter text-sm md:block hidden font-medium">
                   Profile
                 </span>
               </a>
             </button>
-            <button className="mt-2 py-4  md:pl-4 w-full rounded-[22px] hover:bg-orange-white group">
+            <button className="mt-2 py-4  md:pl-4 w-full transition-all duration-300 rounded-[22px] hover:bg-orange-white group">
               <a className="flex" href="">
                 {" "}
                 <span>
@@ -257,12 +257,12 @@ const Sidebar = () => {
                     />
                   </svg>
                 </span>{" "}
-                <span className="text-[#7C7C7C]  md:pl-4 font-inter text-sm md:block hidden font-medium">
+                <span className="text-[#7C7C7C] group-hover:bg-clip-text group-hover:text-transparent group-hover:bg-text-gradient md:pl-4 font-inter text-sm md:block hidden font-medium">
                   Setting
                 </span>
               </a>
             </button>
-            <button className=" md:mt-56 py-4  md:pl-4 w-full rounded-[22px] hover:bg-orange-white group">
+            <button className=" md:mt-56 py-4  md:pl-4 w-full rounded-[22px] transition-all duration-300 hover:bg-orange-white group">
               <a className="flex" href="">
                 {" "}
                 <span>
@@ -286,7 +286,7 @@ const Sidebar = () => {
                     />
                   </svg>
                 </span>{" "}
-                <span className="text-[#7C7C7C] md:block hidden  md:pl-4 font-inter text-sm font-medium">
+                <span className="text-[#7C7C7C] md:block hidden group-hover:bg-clip-text group-hover:text-transparent group-hover:bg-text-gradient md:pl-4 font-inter text-sm font-medium">
                   Log out
                 </span>
               </a>

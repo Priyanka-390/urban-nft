@@ -46,7 +46,7 @@ const Homepage = () => {
                                         <h4 className="font-Inter font-bold text-[12px] bg-clip-text text-transparent bg-text-gradient text-center">
                                             24.8K
                                         </h4>
-                                        <p className="font-Inter font-medium text-[10px] text-[#828282] text-center">
+                                        <p className="font-Inter  font-medium text-[10px] text-[#828282] text-center">
                                             Items
                                         </p>
                                     </div>
